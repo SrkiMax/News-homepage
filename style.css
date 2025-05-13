@@ -29,7 +29,7 @@
 }
 
 body {
-    padding: 20px 50px;
+    padding: 70px 50px;
     font-family: "Karla", sans-serif;
 
 }
@@ -81,6 +81,7 @@ main {
 h1 {
     color: var(--Dark-Space-Blue);
     font-size: 56px;
+    line-height: 1;
     font-weight: 900;
     letter-spacing: -2px;
     width: 100%;
@@ -124,7 +125,8 @@ h1 {
     border: none;
 }
 
-.button:hover {
+.button:hover,
+.button:focus {
     color: white;
     background-color: var(--Dark-Space-Blue);
     border-radius: 0px;
@@ -237,6 +239,16 @@ footer img {
         flex-wrap: wrap;
     }
 
+    .news-text h6 {
+        font-size: 15px;
+        margin-bottom: 0.4rem;
+    }
+
+
+    .news-text .text {
+        font-size: 14px;
+    }
+
 }
 
 
@@ -298,6 +310,16 @@ footer img {
         display: flex;
         flex-direction: column;
         gap: 2rem;
+    }
+
+    .news-text h6 {
+        font-size: 16px;
+        margin-bottom: 0.5rem;
+    }
+
+
+    .news-text .text {
+        font-size: 15px;
     }
 
 
